@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>home-feed</title>
 	<link rel="stylesheet" href="">
 	<!-- Latest compiled and minified CSS -->
@@ -24,6 +24,9 @@
 	  	width: 100%;
 
 	  }
+    .logo {
+      color: #fff;
+    }
 		.main-header {
 			position: fixed;
 			width: 100%;
@@ -31,8 +34,7 @@
 			margin-bottom: 40px;
 			padding-top: 0px;
 			height: 70px;
-		
-			background: #fff;
+      background-color: #00cdcd;
 			z-index: 999;
 			border-bottom: 1px solid #eee;
 
@@ -42,12 +44,11 @@
 
 		}
 			.btn-default {
-				background: #16a085;
+				background: gray;
 				color: #fff;
 			}
-
 /*
-sidebar code */
+		sidebar code */
 
 		body {
     position: relative;
@@ -360,7 +361,7 @@ html { height: 100%;}
     
 	<header class="main-header">
 		<center>
-			<h2 >Re-Vibe</h2>
+			<h2 class="logo">Re-Vibe</h2>
 		</center>
 		        <!-- Sidebar -->
         <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
@@ -415,7 +416,7 @@ html { height: 100%;}
 				<span class="hamb-bottom"></span>
             </button>
 	<section class="news-feed">
-		<div class="row">
+		<div class="row ">
 			<div class=" col-xs-12">
             
             <!-- Simple post content example. -->
